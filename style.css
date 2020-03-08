@@ -1,0 +1,47 @@
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://media.revistagq.com/photos/5ca5f3fcbfc0eb79561c80c3/master/w_1200,c_limit/5_hamburguesas_gourmet_que_debes_probar_4134.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Odibee Sans';
+    color: white;
+}
+
+.formulario{
+    width: 500px;
+    height: 300px;
+    border: solid rebeccapurple 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.boton{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.my-card{
+height: auto;
+/* margin top: 15px; */
+}
+
+.none{
+    display: none;
+}
+
+#hamCpapas, #hamSpapas{
+    width: 150px;   
+}
+
